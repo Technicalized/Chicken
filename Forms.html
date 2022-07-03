@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+<body>
+    <h1>Forms Demo</h1>
+    <form action="/tacos">
+       <p>
+        <label for="Username">Enter your Username:</label>
+        <input id="Username" type="Text" placeholder="Username" name="Username">
+       </p>
+       <label for="password">Enter your Password:</label>
+        <input id="password" type="password" placeholder="Password" name="password">
+        <p>
+            <label for="color">Pick a Color:</label>
+        <input id="color" type="color" name="color">
+        </p>
+        <p>
+            <label for ="number">Enter a Number</label>
+            <input id="number" type="number" name="number">
+        </p>
+        <button type="submit">Submit</button>
+    </form>
+    <hr>
+    <p>
+    <form action="https://www.youtube.com/search">
+        <input type="text" name="search_query">
+        <button> Youtube Search </button>
+    </form>
+    </p>
+    <hr>
+    <p>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button> Google Search </button>
+    </form>
+    </p>
+</body>
+</html>
